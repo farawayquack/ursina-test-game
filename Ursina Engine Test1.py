@@ -40,9 +40,6 @@ app = Ursina()
 
 test1 = Entity(model = 'quad', color = color.red, scale = (1, 3), position = (1,5))
 
-sans_texture = load_texture('Assets/mcsans.png')
-sans = Entity(model = 'quad',texture = sans_texture)
-
 test_cube = Test_button()
 
 app.run()
